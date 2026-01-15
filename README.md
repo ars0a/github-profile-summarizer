@@ -167,8 +167,9 @@ IMAGE_NAME = "your-dockerhub-username/github-profile-summarizer"
 
 ## 📄 License
 
-MIT ORIGINAL COPYRIGHT © 2025 Shubham Gour
-MIT MODIFIED COPYRIGHT © 2026 Aditya Raj Singh
+Original © 2025 Shubham Gour  
+Modified © 2026 Aditya Raj Singh
+
 ---
 
 
