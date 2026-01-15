@@ -165,6 +165,10 @@ IMAGE_NAME = "your-dockerhub-username/github-profile-summarizer"
 * Add dark mode
 * Deploy on AWS EC2 using Nginx container
 
+## 📄 License
+
+MIT ORIGINAL COPYRIGHT © 2025 Shubham Gour
+MIT MODIFIED COPYRIGHT © 2026 Aditya Raj Singh
 ---
 
 
