@@ -166,9 +166,13 @@ IMAGE_NAME = "your-dockerhub-username/github-profile-summarizer"
 * Deploy on AWS EC2 using Nginx container
 
 ## 📄 License
-
-Original © 2025 Shubham Gour  
+ 
 Modified © 2026 Aditya Raj Singh
+
+## 🙏 Acknowledgements
+
+This project is adapted from the original work by [Shubham Gour](https://github.com/theshubhamgour/github-profile-summarizer).
+
 
 ---
 
