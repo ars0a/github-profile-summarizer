@@ -24,25 +24,26 @@ Open http://localhost:5173
 npm run build
 npm run preview
 ```
-<img width="1440" height="810" alt="Screenshot 2025-11-05 at 8 30 23 PM" src="https://github.com/user-attachments/assets/56401f40-e3a8-49af-9939-6d02c7d9db0d" />
+<img width="1440" height="810" alt="Screenshot 2025-11-05 at 8 30 23 PM" src="/assets/Screenshot from 2026-01-15 22-45-19.png" />
 
 ## Next steps
 - Add Dockerfile + Jenkinsfile for CI/CD
 - Cache GitHub responses in localStorage to reduce API calls
 # 🧩 GitHub Profile Summarizer
 
-<img width="1440" height="819" alt="Screenshot 2025-11-05 at 8 30 35 PM" src="https://github.com/user-attachments/assets/14b61f35-d4f3-4836-8f3d-251358fc004d" />
+<img width="1440" height="819" alt="Screenshot 2025-11-05 at 8 30 35 PM" src="/assets/Screenshot from 2026-01-15 22-45-28.png" />
 
 
 A modern **React + Vite + Tailwind** web app that summarizes any GitHub profile beautifully.
 
 It shows:
 
-* 👤 Profile details (name, bio, followers, location)
-* 📊 Public repositories (top 20 by stars)
-* 🧠 Programming languages distribution (pie chart)
-* 🔁 Recent commits (from GitHub activity feed)
-* ⚡ Optional: Authenticated requests with GitHub token for higher API limits
+* 👤 Profile details (name, bio, avatar, location, followers, following)
+* 📊 Top repositories (sorted by stars with stars, forks, language, updated time)
+* 🧩 Programming languages overview + distribution pie chart
+* 🔁 Recent commits estimated from public GitHub activity
+* 🔙 Back to Search button for quickly resetting and looking up another user
+* ⚡ Optional: authenticated requests using a GitHub token for higher rate limits
 
 ---
 
@@ -58,7 +59,7 @@ npm install
 npm run dev
 ```
 
-Then open → [http://localhost:5173](http://localhost:5173)
+Then open → [http://localhost:5175](http://localhost:5175)
 
 ---
 
@@ -85,7 +86,8 @@ Generate a **Personal Access Token**:
    * `read:repo` *(optional)*
 5. Click **Generate token** and copy it (starts with `ghp_...`)
 
-Now update your `.env`:
+# Now update your `.env`
+<img width="1440" height="819" alt="Screenshot 2025-11-05 at 8 30 35 PM" src="/assets/Screenshot from 2026-01-15 22-51-19.png" />
 
 ```bash
 VITE_GITHUB_TOKEN=ghp_yourGeneratedTokenHere
@@ -165,13 +167,4 @@ IMAGE_NAME = "your-dockerhub-username/github-profile-summarizer"
 
 ---
 
-## 📄 License
 
-MIT © 2025 Shubham Gour
-
----
-
-💡 *Made for YouTube tutorials — easy to explain, easy to extend!*
-
-
-- Add trending chart for commits over time
