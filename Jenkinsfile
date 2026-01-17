@@ -55,9 +55,12 @@ pipeline {
    }
   }
 
-  post {
-    always {
-      echo "✅ Image pushed: $IMAGE_NAME:$IMAGE_TAG"
+    post {
+    success {
+      echo "Image pushed: $IMAGE_NAME:$IMAGE_TAG"
+    }
+    failure {
+      echo "Build failed."
     }
   }
 }
