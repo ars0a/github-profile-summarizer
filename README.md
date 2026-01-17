@@ -167,11 +167,9 @@ IMAGE_NAME = "your-dockerhub-username/github-profile-summarizer"
 
 ## 📄 License
  
-Modified © 2026 Aditya Raj Singh
+MIT © 2026 Aditya Raj Singh
 
-## 🙏 Acknowledgements
 
-This project is adapted from the original work by [Shubham Gour](https://github.com/theshubhamgour/github-profile-summarizer).
 
 
 ---
