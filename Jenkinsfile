@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    IMAGE_NAME = "theshubhamgour/github-profile-summarizer"
+    IMAGE_NAME = "adityarajsingh/github-profile-summarizer"
     IMAGE_TAG = "v${env.BUILD_NUMBER}"
     MAX_REPOS = "50"
   }
